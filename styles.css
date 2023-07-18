@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #55202b;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .message {
+    margin-bottom: 20px;
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  #loading {
+    color: #007bff;
+  }
+  
+  #error {
+    color: #f1071f;
+  }
+
+  .movie {
+    margin-top: 20px;
+    text-align: center;
+    cursor: pointer;
+    width: 300px;
+  }
+
+  .movie:hover{
+    opacity: 1;
+    transform: scale(1.1);
+  }
+
+  .movieContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  
+ .moviesBox {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+ }
+
+ .buttonContainer {
+  display: flex;
+  justify-content: center;
+ }
+
+ img {
+  width: 275px;
+ }
+ 
+ @media screen and (max-width: 600px) {
+  img {
+    max-width: 80%;
+  }
+ }
+  
+ 
