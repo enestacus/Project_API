@@ -4,4 +4,4 @@ export const movieContainer = document.getElementById('movieContainer');
 export const loadingMessage = document.getElementById('loading');
 export const errorMessage = document.getElementById('error');
 
-export const urlFetch = `http://www.omdbapi.com/?apikey=65009dec`;
+export const urlFetch = `https://www.omdbapi.com/?apikey=65009dec`;
